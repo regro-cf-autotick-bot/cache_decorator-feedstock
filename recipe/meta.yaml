@@ -1,5 +1,5 @@
 {% set name = "cache_decorator" %}
-{% set version = "2.1.15" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cache_decorator-{{ version }}.tar.gz
-  sha256: 781951788d0e601393ed1a57f39b8883d20b350ebbbfdd1da6581bac50c2e3d6
+  sha256: ebb427b5acb00fb0a47ed9fc7d52fe96de94f40ca52f381205ace8756df6df5a
 
 build:
   noarch: python
